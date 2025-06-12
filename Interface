@@ -49,7 +49,7 @@ class PasswordManagerApp:
     def dashboard_screen(self):
         self.dashboard_frame = tk.Frame(self.root)
         tk.Label(self.dashboard_frame, text="Dashboard", font=("Arial", 14)).pack(pady=20)
-        tk.Button(self.dashboard_frame, text="View/Edit/Delete Entries", width=30, bg='black').pack(pady=5)
+        tk.Button(self.dashboard_frame, text="View/Edit/Delete Entries", width=30).pack(pady=5)
         tk.Button(self.dashboard_frame, text="Add New Entry", width=30, command=lambda: self.show_screen("add_entry")).pack(pady=5)
         tk.Button(self.dashboard_frame, text="Generate Password", width=30, command=lambda: self.show_screen("generate_password")).pack(pady=5)
         tk.Button(self.dashboard_frame, text="Logout", width=30, command=lambda: self.show_screen("login")).pack(pady=20)
