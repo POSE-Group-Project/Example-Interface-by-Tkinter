@@ -1,19 +1,1 @@
-## Installation
 
-1. Install Python 3.11 or later.
-2. Download the project from GitHub.
-3. Run the app.py file with Python.
-
-## Usage
-
-- **Login:** Enter the master password to access the vault.
-- **Add Entry:** Click the "+" button to save a new password.
-
-## Generating Passwords
-
-- On the "Generate Password" screen, click "Generate Password" to create a random strong password.
-
-## Security Notes
-
-- Do not share your master password with anyone.
-- Use strong and complex passwords.
